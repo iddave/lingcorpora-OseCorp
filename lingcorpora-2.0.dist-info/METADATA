@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: lingcorpora
+Version: 2.0
+Summary: API for text corpora
+Home-page: https://github.com/lingcorpora/lingcorpora.py
+Author: Alexey Koshevoy, Anna Klezovich, Anna Zueva, Artem Kopetsky, Diana Malyshok, Ekaterina Gerasimenko, George Moroz, Maria Terekhina, Mark Sobolev, Michael Voronov, Ustinya Kosheleva
+Author-email: katgerasimenko@gmail.com
+License: MIT
+Keywords: corpora,api,language
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: bs4
+Requires-Dist: requests
+Requires-Dist: lxml
+Requires-Dist: tqdm
+
+# Lingcorpora for Python
+
+<table>
+  <tr>
+    <td>Latest Release</td>
+    <td>
+      <a href="https://pypi.org/project/lingcorpora/"/>
+      <img src="https://img.shields.io/pypi/v/lingcorpora.svg"/>
+    </td>
+  </tr>
+  <tr>
+    <td> Build Status </td>
+    <td>
+      <a href="https://ci.appveyor.com/project/kategerasimenko/lingcorpora-py"/>
+      <img src="https://ci.appveyor.com/api/projects/status/github/lingcorpora/lingcorpora.py?svg=true"/>
+    </td>
+  </tr>
+  <tr>
+    <td>License</td>
+    <td>
+      <a href="https://github.com/lingcorpora/lingcorpora.py/blob/master/LICENSE.md"/>
+      <img src="https://img.shields.io/github/license/lingcorpora/lingcorpora.py.svg"/>
+    </td>
+  </tr>
+  <tr>
+    <td>DOI</td>
+    <td>
+      <a href="https://doi.org/10.5281/zenodo.1172456"/>
+      <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1172456.svg"/>
+    </td>
+  </tr>
+</table>
+
+LingCorpora is a Python tool that provides API for multiple text corpora.  
+Documentation: [https://lingcorpora.github.io/lingcorpora.py/](https://lingcorpora.github.io/lingcorpora.py/)
+
+## Installation
+
+You can install the latest release from PyPI using the following command:
+
+```
+pip3 install lingcorpora --user
+```
+
+Also you can install the latest build from git checkout:
+
+```
+git clone https://github.com/lingcorpora/lingcorpora.py
+cd lingcorpora.py
+pip3 install . --user
+```
+
+## Contributors
+
+The project is maintained by [Ekaterina Gerasimenko](https://github.com/kategerasimenko) and [Artyom Kopetskiy](https://github.com/akv17).
+At different stages, the following people have contributed to the project:
+[Alexey Koshevoy](https://github.com/alexeykosh),
+[Anna Klezovich](https://github.com/Pandaklez),
+[Anna Zueva](https://github.com/zu-ann),
+Diana Malyshok,
+[George Moroz](https://github.com/agricolamz),
+[Maria Terekhina](https://github.com/maria-terekhina),
+[Mark Sobolev](https://github.com/strategy155),
+[Michael Voronov](https://github.com/OneAdder) and
+[Ustinya Kosheleva](https://github.com/ustya-k).
+
+## Citation
+
+It will be appreciated if you cite us:
+
+```
+@misc{lingcorpora2019,
+    author = {Gerasimenko, Ekaterina and
+             Artyom Kopetskiy and
+             Alexey Koshevoy and
+             Mark Sobolev and
+             Anna Zueva and
+             Diana Malyshok and
+             Maria Terekhina and
+             Ustinya Kosheleva and
+             Michael Voronov and
+             George Moroz},
+    title = {Lingcorpora for Python},
+    year = {2019},
+    doi = {10.5281/zenodo.1172457},
+    url = {https://github.com/lingcorpora/lingcorpora.py}
+}
+```
+
+
